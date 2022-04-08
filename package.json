@@ -1,0 +1,26 @@
+{
+  "name": "devera-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "heroku": "^7.59.2",
+    "http-status-codes": "^2.1.4",
+    "joi": "^17.5.0",
+    "joy": "^0.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "node": "^17.2.0",
+    "pagination": "^0.4.6",
+    "sequelize": "^6.12.0-beta.3"
+  }
+}
