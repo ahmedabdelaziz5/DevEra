@@ -1,16 +1,20 @@
 # DevEra
 
-DevEra is a social media app that allows users to create and share posts, comments, and reactions. It is made with the following technologies:
+#### DevEra is a social media app that allows programmers to create groups and share posts about technologies they use , make comments and reacts . 
 
+### It is made with the following technologies:
 `Node.js` `Express` `Sequelize` `MySQL` `Bcrypt` `Dotenv` `Joi`  `JSONWebToken` `Http-status-codes`
 
-The app has the following modules:
+# app modules 
+
+#### User module : 
+
+
 
 Comment module
 Group module
 Post module
 React module
-User module
 The comment module allows users to add comments to posts.
 
 The group module allows users to create and join groups.
@@ -35,4 +39,4 @@ To start DEVERA, you can run the following command:
 
 npm start
 
-DEVERA will then be available at http://localhost:3000.
+DEVERA will then be available at `http://localhost:3000`.
