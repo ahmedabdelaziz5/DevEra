@@ -5,6 +5,11 @@
 ### It is made with the following technologies:
 `Node.js` `Express` `Sequelize` `MySQL` `Bcrypt` `Dotenv` `Joi`  `JSONWebToken` `Http-status-codes`
 
+### Installation
+To run DevEra, you will need to have NodeJs and the previous npm packcages .
+you can install DevEra by running the following command: `node app` .
+
+
 # app modules 
 
 ## User module :
@@ -37,7 +42,7 @@
 |/updatePassword|UPDATE|
 
 
-
+// rest of documentation -> loading .....
 Comment module
 Group module
 Post module
@@ -54,14 +59,3 @@ The user module handles user authentication and authorization.
 
 The configuration file contains the code to connect to the MySQL database.
 
-Installation
-To install DEVERA, you will need to have Node.js and npm installed. Once you have Node.js and npm installed, you can install DEVERA by running the following command:
-
-npm install
-
-
-## Usage
-
-To start DEVERA, you can run the following command: `npm start` .
-
-DEVERA will then be available at `http://localhost:3000`.
