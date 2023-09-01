@@ -8,7 +8,7 @@
 ### Installation
 To run DevEra, you will need to have NodeJs and the previous npm packcages .
 
-you can install DevEra by running the following command: `node app` .
+you can run DevEra by running the following command int the terminal : `node app` .
 
 
 # app modules 
