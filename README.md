@@ -26,7 +26,7 @@
     }
 }
 ```
-//   
+
 #### User APIs
 |Endpoint|Method|
 |-------:|-----:
