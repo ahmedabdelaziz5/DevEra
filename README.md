@@ -7,7 +7,34 @@
 
 # app modules 
 
-#### User module : 
+## User module :
+
+#### User schema 
+```JavaScript
+{
+    fullName : {
+        type : Sequelize.STRING
+    },
+    email : {
+        type : Sequelize.STRING
+    },
+    userName : {
+        type : Sequelize.STRING
+    },
+    password : {
+        type : Sequelize.STRING
+    }
+}
+```
+//   
+#### User APIs
+|Endpoint|Method|
+|-------:|-----:
+|login|POST|
+|signUp|POST|Get user info|
+|getUserById|GET|
+|updateNames|UPDATE|
+|updatePassword|UPDATE|
 
 
 
