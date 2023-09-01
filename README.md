@@ -35,8 +35,6 @@ npm install
 
 ## Usage
 
-To start DEVERA, you can run the following command:
-
-npm start
+To start DEVERA, you can run the following command: `npm start` .
 
 DEVERA will then be available at `http://localhost:3000`.
