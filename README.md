@@ -30,11 +30,11 @@
 #### User APIs
 |Endpoint|Method|
 |-------:|-----:
-|login|POST|
-|signUp|POST|Get user info|
-|getUserById|GET|
-|updateNames|UPDATE|
-|updatePassword|UPDATE|
+|/login|POST|
+|/signUp|POST|Get user info|
+|/getUserById|GET|
+|/updateNames|UPDATE|
+|/updatePassword|UPDATE|
 
 
 
