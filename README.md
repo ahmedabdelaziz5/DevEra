@@ -37,27 +37,50 @@ you can run DevEra by running the following command int the terminal : `node app
 |Endpoint|Method|
 |-------:|-----:
 |/login|POST|
-|/signUp|POST|Get user info|
+|/signUp|POST|
 |/getUserById|GET|
 |/updateNames|UPDATE|
 |/updatePassword|UPDATE|
 
+## Comment module :
+
+#### Comment schema 
+```JavaScript
+{
+    commentAbstract : {
+        type : Sequelize.STRING  
+    },
+    userId: {
+        type: Sequelize.INTEGER,
+        references: {
+            model: User,
+            key: 'id'
+        }
+    },
+    userName : {
+        type : Sequelize.STRING  
+    },
+    postId: {
+        type: Sequelize.INTEGER,
+        references: {
+            model: Post,
+            key: 'id'
+        }
+    },
+}
+```
+
+#### User APIs
+|Endpoint|Method|
+|-------:|-----:
+|/addComment|POST|
+|/postComments|POST|
 
 // rest of documentation -> loading .....
 
-Comment module
 Group module
 Post module
 React module
-The comment module allows users to add comments to posts.
-
-The group module allows users to create and join groups.
-
-The post module allows users to create and view posts.
-
-The react module handles the user interface of the app.
-
-The user module handles user authentication and authorization.
 
 The configuration file contains the code to connect to the MySQL database.
 
