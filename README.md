@@ -137,6 +137,41 @@ The configuration file contains the code to connect to the MySQL database.
 
 // rest of documentation -> loading .....
 
+## React module :
 
-React module
+#### React schema 
+```JavaScript
+{
+    isUpVoted : {
+      type : Sequelize.BOOLEAN  
+    },
+    isDownVoted : {
+        type : Sequelize.BOOLEAN 
+    },
+    postId : {
+      type : Sequelize.INTEGER,
+      references: {
+            model: Post,
+            key: 'id'
+      }
+    },
+    userId : {
+      //allowNull : false,
+      type : Sequelize.INTEGER,
+      references: {
+            model: User,
+            key: 'id'
+      }  
+  },
+}
+```
+
+#### React APIs
+|Endpoint|Method|
+|-------:|-----:
+|/upVote|POST|
+|/downVote|POST|
+|/postReacts|GET|
+
+
 
