@@ -71,7 +71,7 @@ The configuration file contains the code to connect to the MySQL database.
 }
 ```
 
-#### User APIs
+#### Comment APIs
 |Endpoint|Method|
 |-------:|-----:
 |/addComment|POST|
@@ -95,8 +95,48 @@ The configuration file contains the code to connect to the MySQL database.
 |/groupData|GET|
 |/addGroup|POST|
 
+## Post module :
+
+#### Post schema 
+```JavaScript
+{
+    postAbstract : {
+        type : Sequelize.STRING
+    },
+    groupId : {
+        type : Sequelize.INTEGER,
+        references: {
+            model: Group,
+            key: 'id'
+        }
+    },
+    postImage : {
+        type : Sequelize.BLOB('long')
+    },
+    userName : { 
+        type : Sequelize.STRING
+    },
+    userId : {
+        type : Sequelize.INTEGER,
+        references: {
+            model: User,
+            key: 'id'
+        }
+    },
+
+}
+```
+
+#### Post APIs
+|Endpoint|Method|
+|-------:|-----:
+|/addPost|POST|
+|/homePage|GET|
+|/groupPage|GET|
+|/ProfilePosts|GET|
+
 // rest of documentation -> loading .....
 
-Post module
+
 React module
 
