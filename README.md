@@ -2,6 +2,8 @@
 
 #### DevEra is a social media app that allows programmers to create groups and share posts about technologies they use , make comments and reacts . 
 
+#### you can find UI , ERD model and postman collection here : `https://drive.google.com/drive/folders/1msTwzIOWRYVEpFRxN8CAHwEBGXvuXWy1?usp=sharing`
+
 ### It is made with the following technologies:
 `Node.js` `Express` `Sequelize` `MySQL` `Bcrypt` `Dotenv` `Joi`  `JSONWebToken` `Http-status-codes`
 
