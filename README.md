@@ -10,6 +10,7 @@ To run DevEra, you will need to have NodeJs and the previous npm packcages .
 
 you can run DevEra by running the following command int the terminal : `node app` .
 
+The configuration file contains the code to connect to the MySQL database.
 
 # app modules 
 
@@ -76,11 +77,26 @@ you can run DevEra by running the following command int the terminal : `node app
 |/addComment|POST|
 |/postComments|POST|
 
+
+## Group module :
+
+#### Group schema 
+```JavaScript
+{
+    groupName : {
+        type : Sequelize.STRING  
+    }
+}
+```
+
+#### Group APIs
+|Endpoint|Method|
+|-------:|-----:
+|/groupData|GET|
+|/addGroup|POST|
+
 // rest of documentation -> loading .....
 
-Group module
 Post module
 React module
-
-The configuration file contains the code to connect to the MySQL database.
 
